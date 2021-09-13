@@ -1,0 +1,76 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #eeeeee !important;
+  background-color: #eeeeee !important;
+}
+
+.do_something{
+  & > tbody > tr > th {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  span{
+    hyphens: none;
+    font-size: 14px;
+    color: #272727;
+  }
+  h5{
+    hyphens: none;
+  }
+}
+
+.people{
+  & > tbody > tr > td > table > tbody > tr {
+    font-size: 0px;
+  }
+}
+
+.take_action{
+  background-color:#fffbf0 !important;
+  background: #fffbf0 !important;
+  
+  & > tbody > tr > th {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  span{
+    hyphens: none;
+    font-size: 14px;
+    color: #272727;
+    padding-top: 20px;
+
+    a{
+      text-decoration: underline;
+      color: #003366;
+    }
+  }
+}
+.footer{
+  background-color: #eeeeee !important;
+  background: #eeeeee !important;
+  margin-top: 20px !important;
+
+
+  .social_link{
+    display: inline;
+    max-height: 20px;
+    padding: 0 3px 15px 3px;
+}
+  .charity_link{
+    display: inline;
+    padding-bottom: 20px;
+    max-width: 75%;
+  }
+
+  .unsub_link{
+    text-decoration: underline;
+    color: #9b9b94;
+    font-size: 12px;
+    font-family: arial;
+  }
+}
